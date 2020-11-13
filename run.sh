@@ -1,4 +1,5 @@
 #!/bin/bash
+echo Running Run.sh
 printf pip freeze 
 python manage.py collectstatic --noinput
 python manage.py makemigrations
