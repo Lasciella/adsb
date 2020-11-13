@@ -1,4 +1,5 @@
 #!/bin/bash
+printf pip freeze 
 python manage.py collectstatic --noinput
 python manage.py makemigrations
 python manage.py migrate
